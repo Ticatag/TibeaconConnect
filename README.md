@@ -53,7 +53,7 @@ You have three choice to scan device with this SDK:
 - scan for attach device
 
 
-###Ticatag Service :
+### Ticatag Service :
 The service scan in background and automatically connects to the device if his mac address is in the list.
 After that a broadcast intent was emitted with de mac address and the status of connection (the same case is use for the disconnection).
 
@@ -63,8 +63,8 @@ For add a device in auto connection list you must use this function :
 ```
 
 
-####Device Status
-#####AndroidManifest.xml : 
+##### Device Status
+###### AndroidManifest.xml : 
 ```
     <receiver android:name=".application.StatusConnectBroadCastReceiver">
         <intent-filter>
@@ -75,7 +75,7 @@ For add a device in auto connection list you must use this function :
 ```
 To declare the receiver intent filter you need to use your package and only add the service you need to use : TicatagService.CONNECTED
 
-#####Your receiver :
+###### Your receiver :
 ```
 public class StatusConnectBroadCastReceiver extends StatusConnectBroadcastReceiver {
 
@@ -89,9 +89,9 @@ public class StatusConnectBroadCastReceiver extends StatusConnectBroadcastReceiv
 ```
 for receive the the value of stats you need to implement your Broadcast receiver and extends StatusConnectBroadcastReceiver.
 
-####Device Action
+##### Device Action
 The same case for the click button action you receive directly the action in BroadCast receiver.
-#####AndroidManifest.xml : 
+###### AndroidManifest.xml : 
 ```
     <receiver android:name=".application.ButtonClickBroadCastReceiver">
         <intent-filter>
@@ -99,7 +99,7 @@ The same case for the click button action you receive directly the action in Bro
         </intent-filter>
     </receiver>
 ```
-#####Your receiver :
+###### Your receiver :
 ```
 public class ButtonClickBroadCastReceiver extends ActionBroadcastReceiver {
     @Override
@@ -111,7 +111,7 @@ public class ButtonClickBroadCastReceiver extends ActionBroadcastReceiver {
 ```
 
 
-###Direct Scan :
+### Direct Scan :
 Is use to scan and get the result directly in activity. 
 For use this method the activity must be implement BeaconConsumer and bind in tiBeaconConnectManager.
 ```
@@ -158,7 +158,7 @@ To receive all devices around the Android phone :
 ```
 
 
-###Scan for attach device :
+### Scan for attach device :
 This function scan during a period and return only one device, is use to attach device in a user account.
 ```
     tiBeaconConnectManager.scanForAttachDevice(15000, false, false, new OnAttachBeaconScanCallback() {
