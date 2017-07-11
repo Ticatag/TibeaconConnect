@@ -12,8 +12,8 @@ import com.ticatag.tibeaconconnect.TiBeaconConnectManager;
 import com.ticatag.tibeaconconnect.beans.TicatagBeacon;
 import com.ticatag.tibeaconconnect.callback.OnAttachBeaconScanCallback;
 import com.ticatag.tibeaconconnect.consumer.BeaconConsumer;
-import com.ticatag.tibeconnectkit.adpater.BeaconsAdapter;
-import com.ticatag.tibeconnectkit.adpater.DividerItemDecoration;
+import com.ticatag.tibeconnectkit.adapter.BeaconsAdapter;
+import com.ticatag.tibeconnectkit.adapter.DividerItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
