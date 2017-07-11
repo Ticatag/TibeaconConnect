@@ -23,7 +23,7 @@ dependencies {
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.ticatag.tibeaconconnect:tibeaconconnect:0.2.0'
+    compile 'com.ticatag.tibeaconconnect:tibeaconconnect:0.3.0'
 
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'

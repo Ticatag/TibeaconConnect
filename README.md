@@ -23,7 +23,7 @@ Gradle
 
 ```javascript
 dependencies {
-  compile 'com.ticatag.tibeaconconnect:tibeaconconnect:0.2.0'
+  compile 'com.ticatag.tibeaconconnect:tibeaconconnect:0.3.0'
 }
 ```
 

@@ -1,8 +1,4 @@
-package com.ticatag.tibeconnectkit.adpater;
-
-/**
- * Created by fvisticot on 15/01/2017.
- */
+package com.ticatag.tibeconnectkit.adapter;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +10,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by Lincoln on 30/10/15.
+ * Created by le cam quentin on 30/10/15.
+ *
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
