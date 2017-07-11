@@ -207,9 +207,9 @@ fix.
 ## library
 All library use in this SDK :
 ```
-    compile 'com.google.dagger:dagger:2.10'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.10'
+    compile 'com.google.dagger:dagger:2.11'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
 
-    compile 'com.polidea.rxandroidble:rxandroidble:1.2.2'
+    compile 'com.polidea.rxandroidble:rxandroidble:1.1.0'
     compile 'no.nordicsemi.android:dfu:1.3.0'
 ```
